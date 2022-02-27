@@ -49,3 +49,22 @@ hr{
     font-family: 'Amatic SC', cursive;
     font-size: 25px;
 }
+
+img{
+    border-radius: 20%;
+}
+
+footer{
+    background: #ffbebc;
+}
+
+h3{
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    text-shadow: 2px 2px 4px  #000;
+    font-size: 50px;
+}
+.kmv{
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
