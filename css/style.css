@@ -1,4 +1,51 @@
 .yoga{
-    background: #9370DB;
 }
 
+.cor-nav{
+    background: #ffbebc;
+}
+
+.rodape{
+    background: #ffbebc;
+}
+
+p{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+
+h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: #ffbebc;
+}
+
+li{
+    font-family: 'Amatic SC', cursive;
+    font-size: 18px;
+}
+
+.logo{
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    -webkit-text-stroke-width: 0.4px;
+    -webkit-text-stroke-color: white;
+}
+
+hr{
+    color: #ffbebc;
+}
+
+.collapse{
+    margin-left: 50%;
+
+}
+
+.espaçamento{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+}
