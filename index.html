@@ -15,34 +15,43 @@
     <title>Site de Yoga</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light cor-nav">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Yoga</a>
+        <a class="navbar-brand logo" href="#">Yoga</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#yg">Yoga</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle espaçamento" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Yoga
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#his">História do Yoga</a></li>
+                <li><a class="dropdown-item" href="#pc">Pré-clássico</a></li>
+                <li><a class="dropdown-item" href="#c">Clássico</a></li>
+                <li><a class="dropdown-item" href="#pos">Pós-Clássico</a></li>
+              </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#sv">Shiva</a>
+              <a class="espaçamento" href="#sv">Shiva</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#kv">Kamadeva</a>
+              <a class="espaçamento" href="#kv">Kamadeva</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contato</a>
+              <a class="espaçamento" href="#cont">Contato</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
+    <br>
 
     <section class="yoga" id="yg">
       <div class="container">
-        <div class="row">
+        <div class="row" id="his">
           <div class="col-md-6">
             <img src="img/yg1.jpg" class="img-fluid" width="100%">
           </div>
@@ -53,11 +62,12 @@
         </div>
       </div>
     </section>
+    <hr>
     <section class="yoga" id="yg">
       <div class="container">
-        <div class="row">
+        <div class="row first">
           <div class="col-md-6">
-            <h1 class="text-center">Yoga Pré-Clássico</h1>
+            <h1 class="text-center" id="pc">Yoga Pré-Clássico</h1>
             <p>Por Paulo Murilo Rosas </p>
             <p>Vamos iniciar os nossos estudos através de parâmetros ocidentais e, por isso, adotar a nomenclatura corrente, dividindo a exposição em: Yoga Pré-Clássico, Yoga Clássico, Yoga Pós-Clássico e Yoga Contemporâneo.
               A palavra Yoga é encontrada nos Vedas, mais especificamente nas várias Upanishads, sempre com o significado de tudo aquilo que serve como um meio para se alcançar o equilíbrio da personalidade e o autoconhecimento.
@@ -67,11 +77,12 @@
           <div class="col-md-6">
             <img src="img/yg2.jpg" class="img-fuid" width="100%">
           </div>
+          <hr>
           <div class="col-md-6">
             <img src="img/yg3.jpg" class="img-fluid" width="100%">
           </div>
           <div class="col-md-6">
-            <h1 class="text-center">Yoga Clássico</h1>
+            <h1 class="text-center" id="c">Yoga Clássico</h1>
             <p>Por Paulo Murilo Rosas </p>
             <p> Segundo a tradição, o criador do Yoga como filosofia foi Hiranyagarba, muito embora, os pesquisadores não se cansem de afirmar que o Yoga de Patanjali representa um clímax no longo e contínuo desenvolvimento desta filosofia. Apesar de o considerarem somente um compilador e um sistematizador, de qualquer forma, não se pode negar a importância de sua obra: os “Yoga Sutras”. 
               Alguns historiadores apontam o nascimento de Patanjali por volta do século II d.C., outros acham que ele viveu por volta do século II a.C. e afirmam ter sido ele quem escreveu o “Maha-Bhashya”, a gramática da língua sânscrita.</p>
@@ -83,8 +94,9 @@
               <li>O quarto chamado Kaivalya Pada (Capítulo da Realização Final).</li>
             </ul>
           </div>
+          <hr>
           <div class="col-md-12">
-            <h1 class="text-center">Pós-Clássico</h1>
+            <h1 class="text-center" id="pos">Pós-Clássico</h1>
             <p>Por Paulo Murilo Rosas </p>
             <p>A literatura existente, desta fase, é muito rica em conteúdo, temos os Samhitas, os Ágamas e os Nigamas, os Puranas e as Yoga Upanishads, que surgiram entre os séculos VII a XVII d.C.
               Samhitas (coletâneas) são textos da tradição Vaishnava que eram organizados em quatro partes:</p>
@@ -101,6 +113,7 @@
         </div>
       </div>
     </section>
+    <hr>
     <section class="shiva" id="sv">
       <div class="container">
         <div class="row">
@@ -132,14 +145,17 @@
         </div>
       </div>
     </section>
-    <div class="container">
+    <div class="container rodape">
       <footer class="py-3 my-4">
-        <p class="text-center text-muted" id="contato">Núcleo de Estudos Védicos<br>
+        <p class="text-center text-muted" id="cont">Núcleo de Estudos Védicos<br>
           Rua do Catete, 344 s/ 202 - Catete<br>
           (Próximo à estação metrô Largo do Machado)<br>
           Rio de Janeiro - RJ<br>
           Tel.: (21) 2205 - 6073<br></p>
       </footer>
     </div>  
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
   </body>
